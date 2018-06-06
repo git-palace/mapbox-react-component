@@ -1,4 +1,20 @@
-Mapbox react examples
+Basic example
 ---
 
-Example patterns for building React apps with [mapbox-gl-js](https://github.com/mapbox/mapbox-gl-js). See the `README.md` files in each example's directory to get started.
+Initialize a map with coordinates set by React, update the state of coordinates
+on map movement, and display that data in an element provided by the render
+function.
+
+![Demo gif](https://i.imgur.com/IGJuTuM.gif)
+
+### Run it
+
+    git clone https://github.com/mapbox/mapbox-react-examples.git
+
+    cd mapbox-react-examples/basic
+    npm install
+    npm start
+
+    open http://localhost:3000/
+
+Runs the app from http://localhost:3000
